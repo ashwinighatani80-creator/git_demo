@@ -15,5 +15,9 @@ public String  ashwini2()
 {
     return "namste Ashwini";
 }
+    @GetMapping("/test")
+    public String test() {
+        return "Git is working!";
+    }
 }
 
