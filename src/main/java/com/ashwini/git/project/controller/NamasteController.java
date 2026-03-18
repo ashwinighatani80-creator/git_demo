@@ -9,5 +9,8 @@ public class NamasteController {
         public String ashwini() {
             return "Hello Ashwini";
         }
-
+    @GetMapping("/hello2")
+    public String hello2() {
+        return "Hello again!";
+    }
     }
